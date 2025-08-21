@@ -1,0 +1,268 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя визитка</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo" id="logo">
+            <img class="logo-img" src="images/Logo.svg" alt="Логотип">
+            <h4 class="logo-text">Akira Studio</h4>
+        </div>
+        <nav class="nav" id="nav">
+            <a href="#hero" class="navA" id="navA">Главная</a>
+            <a href="#aboutMe" class="navA" id="navA">Обо мне</a>
+            <a href="#services" class="navA" id="navA">Услуги</a>
+            <a href="#portfolio" class="navA" id="navA">Портфолио</a>
+            <a href="#contacts" class="navA" id="navA">Контакты</a>
+        </nav>
+        <div class="headerButtons">        
+            <div class="toggleTheme" id="toggleTheme">☀</div>
+            <div class="burger" id="burger">☰</div>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Привет, я Akira</h1>
+                    <h2 class="hero-subtitle">Веб-разработчик. Делаю сайты под ключ.</h2>
+                    <p class="hero-description">Создаю современные, быстрые и красивые веб-сайты, которые привлекают внимание и конвертируют посетителей в клиентов.</p>
+                    <div class="hero-buttons">
+                        <a href="#contacts" class="hero-contacts-btn primary-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Cвязаться со мной
+                        </a>
+                        <a href="#portfolio" class="hero-contacts-btn secondary-btn">
+                            <i class="fas fa-eye"></i>
+                            Посмотреть работы
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-elements">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-code"></i>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutMe" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Обо мне</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Кто я?</h3>
+                        <p>Я веб разработчик</p>
+                        
+                        <h3>Мой подход</h3>
+                        <p>Каждый проект для меня - уникальная возможность создать что нибудь уникальное</p>
+
+                        <div class="skills">
+                            <h3>Мои навыки</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Проектов</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1+</div>
+                            <div class="stat-label">Года опыта</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Довольных клиентов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Мои услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Веб-разработка</h3>
+                        <p>Создание современных веб-сайтов с использованием последних технологих и лучших практик.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Адаптивный дизайн</h3>
+                        <p>Сайты, которые отлично выглядят на всех устройствах - от смартфонов до больших экранов.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX дизайн</h3>
+                        <p>Создание интуитивных и привлекательных пользовательских интерфейсов.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Оптимизация</h3>
+                        <p>Улучшение скорости загрузки и производительности вашего сайта.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2 class="section-title">Портфолио</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/20C2C3/ffffff?text=E-commerce+Site" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>fsjdfdsf</h3>
+                            <p>Современный интернет магазин для строительной компании собачих будок</p>
+                            <div class="portfolio-tags">
+                                <span>React</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/20C2C3/ffffff?text=E-commerce+Site" alt="">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>hahahhha</h3>
+                            <p>Современный интернет магазин для строительной компании собачих будок</p>
+                            <div class="portfolio-tags">
+                                <span>React</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts-section">
+            <div class="container">
+                <h2 class="section-title">Свяжитесь со мной</h2>
+                <div class="contacts-content">
+                    <div class="contact-info">
+                        <h3>Давайте обсудим ваш проект</h3>
+                        <p>Готов помочь воплотить ваши идеи в жизнь. Свяжитесь со мной любым удобным способом.</p>
+                        
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>muspaevo3@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Телефон</h4>
+                                    <p>+7 (978) 597-54-80</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Локация</h4>
+                                    <p>Симферополь, Россия</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-links">
+                            <a href="#" class="contact-link"><i class="fab fa-telegram"></i></a>
+                            <a href="#" class="contact-link"><i class=""></i></a>
+                            <a href="#" class="contact-link"><i class=""></i></a>
+                            <a href="#" class="contact-link"><i class=""></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Ваш email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Тема сообщения" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Отправить сообщение
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/images/Logo.svg" alt="Akira Studio">
+                    <h4>Akira Studio</h4>
+                </div>
+                <p>&copy; 2025 Akira Studio. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
